@@ -8,6 +8,7 @@ function eventMetric() {
   const curPlacament = searchParams.get('placament');
   if (listValue.includes(curPlacament)) {
     ym(94671047, 'reachGoal', 'placement');
+    console.log('отработал');
   }
 }
 
