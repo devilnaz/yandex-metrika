@@ -7,6 +7,7 @@ function eventMetric() {
   const searchParams = new URLSearchParams(paramsUrl);
   const curPlacament = searchParams.get('placament');
   if (listValue.includes(curPlacament)) {
+    ym(94671047, 'reachGoal', 'placement');
   }
 }
 
